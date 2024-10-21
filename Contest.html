@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest Entry Form</title>
+    <style>
+        textarea{
+           
+        }
+        fieldset{
+     padding: 5px;
+    margin: 2em 0;
+    min-width:0;
+    border-radius: 6px;
+    min-height: 100%;
+}
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <h1><b><q>Pimp My Shoes</q> Contest Entry Form</b></h1>
+    <p>Want to trade in your old sneakers for a custom pair of Forcefields? Make a case for why your shoes have <i>got</i>to go and you may be the one of ten lucky winners. </p>
+    <form action="">
+        <div>Contest Entry Information</div>
+    <br>
+        <label for="name">Name:</label>
+        <input type="name" id="name" name="name">
+        <div><br>
+            <label for="email" >Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="q21@gmail.com">
+        </div><br>
+        <div>
+            <label for="tel">Telephone Number:</label>
+            <input type="tel" id="tel" name="tel" placeholder="07xxxxxxxx">
+        </div><br>
+        <div>
+            <label for="my">My shoes are So old...</label><br>
+<textarea name="my" id="my" placeholder="No more than 300 characters long"></textarea>
+        </div>
+        <label for="force">Design your Forcefields:</label>
+        <fieldset><legend>Custom Shoe Design</legend>
+            <fieldset><legend>Color <i>(choose one)</i></legend>
+                <div><input type="radio" id="red" name="red">
+                <label for="red">Red</label><br>
+                <input type="radio" id="blue" name="blue">
+                <label for="">Blue</label><br>
+                <input type="radio" id="black" name="black">
+                <label for="black">Black</label><br>
+                <input type="radio" id="silver" name="Silver">
+                <label for="silver">Silver</label></div>
+            </fieldset>
+            <fieldset><legend>Features <i>(Choose as many as you can)</i></legend>
+                <input type="checkbox" id="lac" name="lac">
+                <label for="lac">Sparkley Laces</label><br>
+                <input type="checkbox" id="log" name="log">
+                <label for="log">Metallic Logo</label><br>
+                <input type="checkbox" id="hel" name="hel">
+                <label for="hel">Light-p heels</label><br>
+                <input type="checkbox" id="en" name="en">
+                <label for="en">MP3-enabled</label><br>
+                
+            </fieldset>
+            <fieldset><legend>Size</legend>
+                <label for="size">Sizes reflect standard men's shoes</label>
+                <select name="size" id="size">
+                    <button><option value="size">40</option>
+                    <option value="size">41</option>
+                <option value="size">42</option>
+            <option value="size">45</option></button>
+                </select>
+            </fieldset>
+
+        </fieldset><br>
+        <button>Pimp My Shoes</button>
+        <input type="reset">
+    </form>
+    
+</body>
+</html>
