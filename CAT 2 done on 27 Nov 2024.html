@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            width: 200px;
+        }
+        .btn-box a{
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" class="login">
+        <h2>Register Account</h2>
+        <div>
+            <label for="fname">Full Name:</label>
+            <input type="fname" name="fname" size="atleast 4 characters">
+        </div><br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" size="atleast 4 characters">
+        </div><br>
+        <div>
+            <label for="confirm-password">Confirm-Password:</label>
+            <input type="confirm-password" name="confirm-password">
+        </div><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="john@gmail.com">
+        </div><br>
+        <div>
+            <label for="tel">Phone Number :</label>
+            <input type="tel" name="tel">
+        </div><br>
+        <div>
+            <label for="code">Zip Code:</label>
+            <input type="code" name="code" size="5-9 digits">
+        </div><br>
+        <div>
+            <label for="type">Card Type:</label>
+            <select name="type" id="type">
+                <option value="type">Visa</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="cnumber">Card Number:</label>
+            <input type="cnumber" name="cnumber" >
+        </div><br>
+        <div>
+            <label for="ex-date">Expiration Date</label>
+            <input type="ex-date" name="ex-date">
+        </div><br>
+        <div class="btn-box">
+            <button><a href="#">Register</a></button>
+            <button><a href="#">Clear Form</a></button>
+        </div>
+    </form>
+</body>
+</html>
